@@ -1,0 +1,95 @@
+/* Logo Border */
+.aside .logo a::before {
+	border-top: 5px solid #ffb400;
+	border-left: 5px solid #ffb400;
+}
+
+.aside .logo a::after {
+	border-bottom: 5px solid #ffb400;
+	border-right: 5px solid #ffb400;
+}
+/* ================================ */
+
+/* Nav Bar */
+.aside .copy-right .haert,
+.aside .nav li a.active,
+.aside .copy-right a,
+.aside .nav li a:hover {
+	color: #ffb400 !important;
+}
+/* Nav Bar Media Query */
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.home .intro .social-links a {
+	background-color: #ffb400;
+}
+
+/* ================================ */
+
+/* About Section */
+
+.section-title h2::before,
+.section-title h2::after,
+.btn,
+.about .about-content .skills .skill-item .progress .progress-in,
+.about .about-content .timeline-item::before,
+.about .about-content .timeline .circle-dot {
+	background-color: #ffb400;
+}
+.about .about-content .about-text span {
+	color: #ffb400;
+}
+
+/* ================================ */
+
+/* Service Section */
+
+.service-item-inner .icon.active,
+.service-item-inner:hover .icon {
+	background-color: #ffb400 ;
+}
+.service-item-inner .icon .fa {
+	color: #ffb400;
+}
+
+/* ================================ */
+
+/* Portfolio Sectoin */
+
+.portfolio .portfolio-filter button:hover,
+.portfolio .portfolio-filter button.active,
+.portfolio .portfolio-item .portfolio-info .icon .fa {
+	color: #ffb400 !important;
+}
+.portfolio .portfolio-filter button.active::before {
+	background-color: #ffb400;
+	width: 100%;
+}
+.portfolio .portfolio-filter button:hover::before {
+	width: 100%;
+	background-color: #ffb400;
+}
+
+/* Blog Section */
+
+.blog .blog-item-inner .blog-info .blog-tag a {
+	color: #ffb400;
+}
+.blog .blog-item-inner .blog-date {
+	background-color: #ffb400;
+}
+
+/* contact Section */
+
+.contact-info-item .icon .fa {
+	color: #ffb400;
+}
+
+/* Light Box Section */
+
+.lightbox-controls .prev-item .fa,
+.lightbox-controls .next-item .fa {
+	color: #ffb400;
+}
+/* ./Light Box Section */

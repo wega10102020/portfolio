@@ -1,0 +1,103 @@
+/* Logo Border */
+.aside .logo a::before{
+    border-top: 5px solid #ec1839;
+    border-left: 5px solid #ec1839;
+}
+
+.aside .logo a::after{
+    border-bottom: 5px solid #ec1839;
+    border-right: 5px solid #ec1839;
+}
+/* ================================ */
+
+/* Nav Bar */
+.aside .copy-right .haert,
+.aside .nav li a.active,
+.aside .copy-right a,
+.aside .nav li a:hover{
+    color: #ec1839 !important;
+}
+/* Nav Bar Media Query */
+.aside .nav-toggler span,
+.aside .nav-toggler span::before,
+.aside .nav-toggler span::after,
+.home .intro .social-links a{
+    background-color: #ec1839;
+}
+
+/* ================================ */
+
+/* About Section */
+
+.section-title h2::before,
+.section-title h2::after,
+.btn,
+.about .about-content .skills .skill-item .progress .progress-in,
+.about .about-content .timeline-item::before,
+.about .about-content .timeline .circle-dot{
+    background-color: #ec1839;
+}
+.about .about-content .about-text span{
+    color: #ec1839;
+}
+
+/* ================================ */
+
+/* Service Section */
+
+.service-item-inner .icon.active,
+.service-item-inner:hover .icon{
+    background-color: #ec1839;
+}
+.service-item-inner .icon .fa{
+    color: #ec1839;
+}
+
+/* ================================ */
+
+
+/* Portfolio Sectoin */
+
+.portfolio .portfolio-filter button:hover,
+.portfolio .portfolio-filter button.active,
+.portfolio .portfolio-item .portfolio-info .icon .fa{
+    color: #ec1839 !important;
+    
+}
+.portfolio .portfolio-filter button.active::before{
+    background-color: #ec1839;
+    width: 100%;
+}
+.portfolio .portfolio-filter button:hover::before{
+    width: 100%;
+    background-color: #ec1839;
+}
+
+
+
+
+
+/* Blog Section */
+
+.blog .blog-item-inner .blog-info .blog-tag a{
+    color: #ec1839;
+}
+.blog .blog-item-inner .blog-date{
+    background-color: #ec1839;
+}
+
+
+/* contact Section */
+
+.contact-info-item .icon .fa{
+    color: #ec1839;
+}
+
+
+/* Light Box Section */
+
+.lightbox-controls .prev-item .fa,
+.lightbox-controls .next-item .fa{
+    color: #ec1839;
+}
+/* ./Light Box Section */
